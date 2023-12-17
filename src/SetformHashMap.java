@@ -3,12 +3,12 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;
 
-public class HashSet<E> implements Set<E> {
+public class SetformHashMap<E> implements Set<E> {
 
     private HashMap<E, Object> map;
     private static final Object DEFAULT_VALUE = new Object();
 
-    public HashSet() {
+    public SetformHashMap() {
         map = new HashMap<>();
     }
 

@@ -3,9 +3,9 @@ import java.util.Objects;
 public class Lab7 {
 
     public static void main(String[] args) {
-        HashSet<String> set1 = new HashSet<>();
-        HashSet<String> set2 = new HashSet<>();
-        HashSet<String> set3 = new HashSet<>();
+        SetformHashMap<String> set1 = new SetformHashMap<>();
+        SetformHashMap<String> set2 = new SetformHashMap<>();
+        SetformHashMap<String> set3 = new SetformHashMap<>();
         for (int i = 1; i <= 10; i++) {
             String number = Integer.toString(i);
             set1.add(number);
